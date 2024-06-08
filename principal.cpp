@@ -14,9 +14,13 @@
 //		9.- Metodo de la Secante.cpp (metodo_secante_p9)
 //		10.- Metodo de la Tangente.cpp (metodo_tangente_p10)
 //		11.- Metodo del Trapecio.cpp (metodo_trapecio_p11)
-//		12.- Minimos Cuadrados (minimos_cuadrados_p12)
-//		13.- 
-//		14.- 
+//		12.- Minimos Cuadrados.cpp (minimos_cuadrados_p12)
+//		13.- Regresion cuadratica.cpp (regresion_cuadratica_p13)
+//		14.- Regresioón Lineal Múltiple.cpp (regresion_lineal_multiple_p14)
+//		15.- Simpson 3 Octavos.cpp (simpson_3_8_p15)
+//		16.- Simpson Combinado (simpson_combinado_p16)
+//		17.- 
+//		18.- 
 
 int main() {
 
