@@ -18,9 +18,8 @@
 //		13.- Regresion cuadratica.cpp (regresion_cuadratica_p13)
 //		14.- Regresioón Lineal Múltiple.cpp (regresion_lineal_multiple_p14)
 //		15.- Simpson 3 Octavos.cpp (simpson_3_8_p15)
-//		16.- Simpson Combinado (simpson_combinado_p16)
-//		17.- 
-//		18.- 
+//		16.- Simpson Combinado.cpp (simpson_combinado_p16)
+//		17.- Simpson un Tercio.cpp (simpson_1_3_p17)
 
 int main() {
 
