@@ -20,7 +20,10 @@
 //		15.- Simpson 3 Octavos.cpp (simpson_3_8_p15)
 //		16.- Simpson Combinado.cpp (simpson_combinado_p16)
 //		17.- Simpson un Tercio.cpp (simpson_1_3_p17)
-
+int opcion_programa;
 int main() {
-
+	do {
+		cin>>
+	} while (opcion_programa != 0);
+	switch()
 }
