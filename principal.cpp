@@ -20,10 +20,13 @@
 //		15.- Simpson 3 Octavos.cpp (simpson_3_8_p15)
 //		16.- Simpson Combinado.cpp (simpson_combinado_p16)
 //		17.- Simpson un Tercio.cpp (simpson_1_3_p17)
-int opcion_programa;
+int opcion_programa = -1;
 int main() {
 	do {
-		cin>>
+		printf("Por favor, elija un programa para ejecutar: \n");
+		scanf("%i", &opcion_programa);
 	} while (opcion_programa != 0);
-	switch()
+	switch(opcion_programa){
+		
+	}
 }
