@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
+#include <"including\p1.h">
 
 // Lista de programas
 //		1.- GaussJordan.cpp (gauss_jordan_p1)
@@ -25,8 +26,13 @@ int main() {
 	do {
 		printf("Por favor, elija un programa para ejecutar: \n");
 		scanf("%i", &opcion_programa);
+
+		switch(opcion_programa) {
+			default:
+				printf("Por favor, elija una opción correcta");
+				break;
+		}
 	} while (opcion_programa != 0);
-	switch(opcion_programa){
-		
-	}
+	printf("Hasta pronto...");
+	return 0;
 }
