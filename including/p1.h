@@ -4,11 +4,6 @@
 #define max_inc 10
 #define max_ecu 10
 
-	/*void a_ceros();
-	void encabezado();
-	void cap_coef();
-	void jordan();
-	void resultados();*/
 
 	float mat_coef[10][10], resul[10];
 	int n_ecu, n_inc, i, j, k, ln, cl, cl1, c12;

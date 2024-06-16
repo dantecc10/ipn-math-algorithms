@@ -83,7 +83,7 @@ void resultados() {
 	printf("El metodo de Gauss es una tecnica matematica util para resolver problemas con muchas ecuaciones y muchas incognitas.\nEs bastante preciso y puede manejar una amplia variedad de problemas.\nSin embargo, hay que tener cuidado cuando se trabaja con problemas dificiles, ya que podria haber errores inesperados.\nAdemas, aunque es bastante simple de entende9r, puede volverse lento si el problema es muy grande.\nEn general, el metodo de Gauss es una herramienta poderosa, pero se necesita algo de práctica para usarlo correctamente.\n\n");
 }
 
-int gauss_p2() {
+int main() {
 	ceros();
 	enc();
 	captura();

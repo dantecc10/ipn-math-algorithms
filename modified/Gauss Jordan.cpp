@@ -5,14 +5,9 @@
 #define max_ecu 10
 #define max_inc 10
 
-/*void a_ceros();
-void encabezado();
-void cap_coef();
-void jordan();
-void resultados();*/
 
 float mat_coef[10][10], resul[10];
-int n_ecu, n_inc, int i, j, k, ln, cl, cl1, c12;
+int n_ecu, n_inc, i, j, k, ln, cl, cl1, c12;
 
 /*presentacion de encabezado */
 void encabezado() {
@@ -101,7 +96,7 @@ void a_ceros() {
 	}
 }
 
-int main() {
+int gauss_jordan_p1() {
 	a_ceros();
 	encabezado();
 	cap_coef();
