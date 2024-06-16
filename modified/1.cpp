@@ -96,7 +96,7 @@ void a_ceros() {
 	}
 }
 
-int gauss_jordan_p1() {
+int main() {
 	a_ceros();
 	encabezado();
 	cap_coef();

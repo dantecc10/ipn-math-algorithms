@@ -5,7 +5,7 @@ float m[2][10], ec[3][4] = {{0.0}}, ec1[3][4] = {{0.0}};
 int n, i, j, ren, cl, ln;
 float suma_y, suma_x, suma_xy, suma_x2, suma_c1, suma_c2, suma_c3, A, B, bufer1, bufer2;
 
-int minimos_cuadrados_p12() {
+int main() {
 	suma_y = suma_x = suma_xy = suma_x2 = 0.0;
 	suma_c1 = suma_c2 = suma_c3 = A = B = 0.0;
 	bufer1 = bufer2 = 0.0;

@@ -76,7 +76,7 @@ void impresion(int intento, float xi, float xf) {
 	printf("                 %-10d          %.6f         %.6f\n", intento, xi, xf);
 }
 
-int metodo_tangente_p10() {
+int main() {
 	enc();
 	datos();
 	tangente();

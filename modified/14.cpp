@@ -6,7 +6,7 @@ int n, m;
 float M[10][4], E[4][4], ve[4] = {0, 0, 0, 0}, suma_y = 0.0, suma_x1 = 0.0, suma_x2 = 0.0, suma_x12 = 0.0, suma_x22 = 0.0, suma_x1x2 = 0.0, suma_x1y = 0.0, suma_x2y = 0.0;
 
 
-int regresion_lineal_multiple_p15()
+int main()
 {
 	 printf("\n                        I.P.N. - E.S.I.M.E. - U.AZC.\n");
     printf("__________________________________________________________________________________________");

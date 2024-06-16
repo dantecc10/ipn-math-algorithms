@@ -5,7 +5,7 @@
 int n,m, i,j,k, cl,ln, ind=0;
 float M[10][4], E[4][5], ve[4]= {0,0,0,0}, suma_xi,suma_yi,suma_xi2, suma_xi3,suma_xi4,suma_xiyi, suma_xi2yi, piv=0.0, cero=0.0;
 
-int regresion_cuadratica_p13() {
+int main() {
 	suma_xi=suma_yi=suma_xi2=suma_xi3=suma_xi4=0.0;
 	suma_xiyi=suma_xi2yi=0.0;
 	cl=ln=0;

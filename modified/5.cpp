@@ -12,7 +12,7 @@ float func(float x) {
 	return 2 * pow(x, 3) - 11 * pow(x, 2) + 12 * x + 5;
 }
 
-int interpolacion_lineal_p5() {
+int main() {
 	float xi, xf, inc, fxi, fxf, c1, c2, i, pi, D;
 	int j = 1;
 

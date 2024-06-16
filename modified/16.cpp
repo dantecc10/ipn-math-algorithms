@@ -33,7 +33,7 @@ float integral(float x) {
     return y;
 }
 
-int simpson_combinado_p16() {
+int main() {
     int opc;
     float l_inf, l_sup, a1, a3, b1, b3, ix, sx, x;
     float segm, area_simpl, area_simp3;

@@ -23,7 +23,7 @@ float func_simplm(float x) {
     return pow(x, 3);
 }
 
-int simpson_1_3_p17() {
+int main() {
     float l_inf, l_sup, segm, f_a, f_b;
     int n_segm, i, opc;
     float area_ana, area_simplm;

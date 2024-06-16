@@ -24,7 +24,7 @@ float func_simp3(float x) {
     return pow(x, 3);
 }
 
-int simpson_3_8_p15() {
+int main() {
     float l_inf, l_sup, segm;
     float area_ana, area_simp3;
     float xi, fx0, fx1, fx2, fx3, error;

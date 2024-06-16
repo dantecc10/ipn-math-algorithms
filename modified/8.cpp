@@ -8,7 +8,7 @@ float func(float x) {
 	return w;
 }
 
-int metodo_biseccion_p8() {
+int main() {
 	float a, b, pi, xint, exact, error;
 	int i, n;
 	char c;

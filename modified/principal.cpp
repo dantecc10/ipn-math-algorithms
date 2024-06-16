@@ -17,7 +17,7 @@
 //		11.- Metodo del Trapecio.cpp (metodo_trapecio_p11)
 //		12.- Minimos Cuadrados.cpp (minimos_cuadrados_p12)
 //		13.- Regresion cuadratica.cpp (regresion_cuadratica_p13)
-//		14.- Regresioón Lineal Múltiple.cpp (regresion_lineal_multiple_p14)
+//		14.- Regresión Lineal Múltiple.cpp (regresion_lineal_multiple_p14)
 //		15.- Simpson 3 Octavos.cpp (simpson_3_8_p15)
 //		16.- Simpson Combinado.cpp (simpson_combinado_p16)
 //		17.- Simpson un Tercio.cpp (simpson_1_3_p17)
@@ -48,7 +48,7 @@ int main()
 		// system("dir");
 		// system("cd src");
 		// system("Gauss.exe");
-		printf("Por favor, elija un programa para ejecutar: \n");
+		printf("\n\nPor favor, elija un programa para ejecutar: \n");
 		printf("	1.- GaussJordan\n");
 		printf("	2.- Gauss\n");
 		printf("	3.- Gauss-Seidel\n");
@@ -66,63 +66,65 @@ int main()
 		printf("	15.- Simpson 3 Octavos\n");
 		printf("	16.- Simpson Combinado\n");
 		printf("	17.- Simpson un Tercio\n");
+		printf("	Elija una opción: ");
 		scanf("%i", &opcion_programa);
+		printf("\n\n");
 
 		switch (opcion_programa)
 		{
 		case 1:
-			system("GaussJordan.exe");
+			system("1.exe");
 			break;
 		case 2:
-			system("Gauss.exe");
+			system("2.exe");
 			break;
 		case 3:
-			system("Gauss-Seidel.exe");
+			system("3.exe");
 			break;
 		case 4:
-			system("Interpolacion Cuadratica de Newton.exe");
+			system("4.exe");
 			break;
 		case 5:
-			system("Interpolacion lineal.exe");
+			system("5.exe");
 			break;
 		case 6:
-			system("Interpolacion n=3.exe");
+			system("6.exe");
 			break;
 		case 7:
-			system("Langrage.exe");
+			system("7.exe");
 			break;
 		case 8:
-			system("Metodo de Biseccion.exe");
+			system("8.exe");
 			break;
 		case 9:
-			system("Metodo de la Secante.exe");
+			system("9.exe");
 			break;
 		case 10:
-			system("Metodo de la Tangente.exe");
+			system("10.exe");
 			break;
 		case 11:
-			system("Metodo del Trapecio.exe");
+			system("11.exe");
 			break;
 		case 12:
-			system("Minimos Cuadrados.exe");
+			system("12.exe");
 			break;
 		case 13:
-			system("Regresion cuadratica.exe");
+			system("13.exe");
 			break;
 		case 14:
-			system("Regresioón Lineal Múltiple.exe");
+			system("14.exe");
 			break;
 		case 15:
-			system("Simpson 3 Octavos.exe");
+			system("15.exe");
 			break;
 		case 16:
-			system("Simpson Combinado.exe");
+			system("16.exe");
 			break;
 		case 17:
-			system("Simpson un Tercio.exe");
+			system("17.exe");
 			break;
 		default:
-			printf("Por favor, elija una opción correcta");
+			(opcion_programa == 0) ? printf("\n\nPor favor, elija una opción correcta") : 0;
 			break;
 		}
 	} while (opcion_programa != 0);

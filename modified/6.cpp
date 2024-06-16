@@ -82,7 +82,7 @@ void encabezado() {
 }
 
 /* Programa principal */
-int interpolacion_n3_p6() {
+int main() {
 	encabezado();
 	cap_puntos();
 	coef();

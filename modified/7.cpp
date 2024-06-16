@@ -78,7 +78,7 @@ void encabezado() {
 	printf("__________________________________________________________________________________________\n\n");
 }
 
-int langrage_p7() {
+int main() {
 	encabezado();
 	cap_puntos();
 	cocientes();

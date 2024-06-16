@@ -80,7 +80,7 @@ void sec() {
 	printf("La raiz es = %0.4f   Error= %0.4f\n", xi1, Ec);
 }
 
-int metodo_secante_p9() {
+int main() {
 	marco();
 	cap();
 	sec();

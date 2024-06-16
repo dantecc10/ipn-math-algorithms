@@ -111,7 +111,7 @@ void encabezado() {
     printf("\n         Captura de coeficientes del Sistema de Ecuaciones\n\n");
 }
 
-int gauss_seidel_p3() {
+int main() {
     a_ceros();
     encabezado();
     cap_coef();

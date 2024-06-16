@@ -80,7 +80,7 @@ void encabezado () {
 	printf("__________________________________________________________________________________________\n\n");
 }
 
-int interpolacion_cuadratica_newton_p4() {
+int main() {
 	encabezado();
 	cap_puntos();
 	coef();

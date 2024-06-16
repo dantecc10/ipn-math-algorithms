@@ -5,7 +5,7 @@ float func_trap(float x) {
 	return pow(x, 2);
 }
 
-int metodo_trapecio_p11() {
+int main() {
 	float a, b, base, fa, fb;
 	float suma_xi;
 	float Aa, An, E, xi, n_trap, i;
